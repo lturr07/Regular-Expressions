@@ -1,0 +1,7 @@
+D/M/YYYY DD/M/YYYY D/MM/YYYY DD/MM//YYYY and also swapped around as well (year/month/day)
+with seperators being - / or ' ' (whitspace)
+(\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])[-/\s]+(1[0-2]|0[1-9]|[1-9])[-/\s]+(\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])
+Group 1, 2 and 3 can be used to decipher between year or date at the start, for example in python:
+
+date = 12-0-2022
+(unfinished)
