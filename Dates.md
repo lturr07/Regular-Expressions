@@ -8,22 +8,13 @@ with seperators being - / or ' '(whitspace)</p>
 
 <h4>Example in Psuedo/Python Code</h4>
 <h6>CODE:</h6>
-regular_expression = (\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])[-/\s]+(1[0-2]|0[1-9]|[1-9])[-/\s]+(\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])
-string1 = '12/4/2012'
-regular_expression_complete = ReGex(regular_expression , string1)
-print(regular_expression_complete[0])
-print(regular_expression_complete[1])
-print(regular_expression_complete[2])
+<p>regular_expression = (\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])[-/\s]+(1[0-2]|0[1-9]|[1-9])[-/\s]+(\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])</p>
+<p>string1 = '12/4/2012'</p>
+<p>regular_expression_complete = ReGex(regular_expression , string1)</p>
+<p>print(regular_expression_complete[0])</p>
+<p>print(regular_expression_complete[1])</p>
+<p>print(regular_expression_complete[2])</p>
 <h6>OUTPUT:</h6>
-12
-4
-2012
-
-
-<h2>Regex Date 2</h2>
-
-<h4>Explanation</h4>
-
-<h4>Example in Psuedo/Python Code</h4>
-<h6>CODE:</h6>
-<h6>OUTPUT:</h6>
+<p>12</p>
+<p>4</p>
+<p>2012</p>
