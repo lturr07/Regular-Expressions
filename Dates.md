@@ -36,8 +36,8 @@ string1 = '12/4-2012'<br>
 regular_expression_complete = ReGex(regular_expression , string1)<br>
 print(regular_expression_complete[0]) #group 1 <br>
 print(regular_expression_complete[1])<br>
-print(regular_expression_complete[2])</p>
-print(regular_expression_complete[3])</p>
+print(regular_expression_complete[2])<br>
+print(regular_expression_complete[3])<br>
 print(regular_expression_complete[4])</p>
 <h5><b>OUTPUT:</b></h5>
 <p><i>12</i></p>
