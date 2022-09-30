@@ -11,7 +11,7 @@ Group 1, 2 and 3 can be used to decipher between year or date at the start.</p>
 <p>regular_expression = (\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])[-/\s]+(1[0-2]|0[1-9]|[1-9])[-/\s]+(\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])<br>
 string1 = '12/4/2012'<br>
 regular_expression_complete = ReGex(regular_expression , string1)<br>
-print(regular_expression_complete[0]) \#group 1 <br>
+print(regular_expression_complete[0]) #group 1 <br>
 print(regular_expression_complete[1])<br>
 print(regular_expression_complete[2])</p>
 <h5><b>OUTPUT:</b></h5>
@@ -34,7 +34,7 @@ Group 1, 3 and 5 can be used to decipher between year or date at the start. whil
 <p>regular_expression = (\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])([-/\s]+)(1[0-2]|0[1-9]|[1-9])([-/\s]+)(\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])<br>
 string1 = '12/4-2012'<br>
 regular_expression_complete = ReGex(regular_expression , string1)<br>
-print(regular_expression_complete[0]) \#group 1 <br>
+print(regular_expression_complete[0]) #group 1 <br>
 print(regular_expression_complete[1])<br>
 print(regular_expression_complete[2])</p>
 print(regular_expression_complete[3])</p>
