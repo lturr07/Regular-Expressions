@@ -2,7 +2,7 @@
 
 <h3>Explanation</h3>
 <p>D/M/YYYY DD/M/YYYY D/MM/YYYY DD/MM//YYYY and also swapped around as well (year/month/day)
-with seperators being - / or ' '(whitspace)<br>
+with seperators being - / or (whitspace)<br>
 (\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])[-/\s]+(1[0-2]|0[1-9]|[1-9])[-/\s]+(\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])<br>
 Group 1, 2 and 3 can be used to decipher between year or date at the start.</p>
 
@@ -25,7 +25,7 @@ print(regular_expression_complete[2])</p>
 
 <h3>Explanation</h3>
 <p>D/M/YYYY DD/M/YYYY D/MM/YYYY DD/MM//YYYY and also swapped around as well (year/month/day)
-with seperators being - / or ' '(whitspace)<br>
+with seperators being - / or (whitspace)<br>
 (\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])([-/\s]+)(1[0-2]|0[1-9]|[1-9])([-/\s]+)(\d{4}|3[01]|[1-2][0-9]|0[1-9]|[1-9])<br>
 Group 1, 3 and 5 can be used to decipher between year or date at the start. while groups 2 and 4 can be used to see what seperators have been used</p>
 
