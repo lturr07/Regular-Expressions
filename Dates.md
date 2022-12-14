@@ -1,4 +1,4 @@
-<h2>Regex Date 1-1</h2>
+<h2>Regex Date 1-1 (Finds Digits)</h2>
 
 <h3>Explanation</h3>
 <p>D/M/YYYY DD/M/YYYY D/MM/YYYY DD/MM//YYYY and also swapped around as well (year/month/day)
@@ -21,7 +21,7 @@ print(regular_expression_complete[2])</p>
 
 
 
-<h2>Regex Date 1-2</h2>
+<h2>Regex Date 1-2 (Finds Digits and Seperators)</h2>
 
 <h3>Explanation</h3>
 <p>D/M/YYYY DD/M/YYYY D/MM/YYYY DD/MM//YYYY and also swapped around as well (year/month/day)
